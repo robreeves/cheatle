@@ -18,3 +18,11 @@ Behavior:
 2a. In valid words from step 1, find most common letters and most common position of letters.
 2b. Using info from 2a pick a word that uses the most common letters, prefer ones where they are in most common position. May need to support multiple strategies.
 3. If more than one option pick a random one or print them to the output.
+
+# Dev notes
+Virtual env setup
+```bash
+python3 -m venv venv
+source venv/bin/activate 
+pip install -e .
+```

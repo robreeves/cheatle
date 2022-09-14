@@ -7,4 +7,8 @@ setup(
         'console_scripts': [
             'cheatle = cheatle.__main__:main'
         ]
-    })
+    },
+    install_requires=[
+        'click'
+    ]
+)
